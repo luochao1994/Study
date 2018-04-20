@@ -1,6 +1,0 @@
-一、git的第一课
-  1.克隆
-  git clone + URL
-  2.进入文件主分支
-  madir+名字 创建文件夹 touch+名字 创建文件
-  cd + 文件名

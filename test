@@ -2,16 +2,5 @@
   1.克隆
   git clone + URL
   2.进入文件主分支
+  madir+名字 创建文件夹 touch+名字 创建文件
   cd + 文件名
-  3.创建自己的新分支
-  git checkout -b +新分分支名
-  4.切换分支
-  git checkout 分支名
-  5.进入文件
-  vim +文件名 然后进行编写 写完保存
-  6.创建秘钥
-  ssh-keygen -t rsa -C 账号 （自动创建并显示位置）
-  7.加入和提交
-  git commit -am '注释'
-  8.上传操作
-  git push oigin 分支名

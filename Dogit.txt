@@ -1,0 +1,47 @@
+git的基本操作
+
+1.克隆
+git clone + URL
+2.进入文件主分支
+cd + 分支名
+3.创建文件或者文件夹
+mkdir+名字 创建文件夹    touch+名字 创建文件
+4.创建自己的分支
+git checkout -b 分支名
+5.比较两分支
+git diff 分支1 分支2
+6.合并分支（在当前分支下合并该分支）
+git merge 分支
+7.进入文件进行编辑
+vim 文件名
+8.添加和提交操作
+git commit -am '添加注释'
+9.上传操作
+git push origin 分支名
+10.下拉操作（如果上传不成功就先下拉再上传）
+git pull origin 分支名
+11.创建秘钥
+ssh-keygen -t rsa -C 账号或者邮箱（会自动创建文件并显示位置）
+①在路径下找到id_rsa.pub文件并复制里面的内容
+②粘贴到github.com 账户settings下SSH and GPG keys 里面 new SSH key
+③git clone https://github.com/luochao1994/Study.git 
+12.添加标签
+git tag -a v1.0.0.1 -m '注释'
+13.获取标签
+git tag
+14.删除标签
+git tag -d v1.0.0.1
+15.删除远程标签
+git push origin --delete v1.0.0.1 
+16.删除本地分支
+git branch -D 分支名
+17.删除远程分支
+git push origin --delete 分支名
+18.缓存（当前分支下的所有文件）
+git stash
+19.获取缓存列表
+git stash list
+20.还原缓存的代码及文件
+git stash apply stash@{x} x是缓存的序号
+21.回到具体哪个版本
+git reset --hard + 版本号

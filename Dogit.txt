@@ -45,3 +45,7 @@ git stash list
 git stash apply stash@{x} x是缓存的序号
 21.回到具体哪个版本
 git reset --hard + 版本号
+22.断开连接
+git remote rm origin
+23.建立连接
+git remote add origin + URL

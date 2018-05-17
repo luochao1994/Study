@@ -1,4 +1,4 @@
-django的学习
+
 1.MVC -- Model View Controller
 
 2.MVT -- Model-View-Template

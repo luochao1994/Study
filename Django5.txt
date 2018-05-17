@@ -1,5 +1,4 @@
-1.
-set_cookies(key, value, max_age=10)
+1.set_cookies(key, value, max_age=10)
 
 max_age 存活时间
 

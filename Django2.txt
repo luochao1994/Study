@@ -1,4 +1,4 @@
-Django第二天学习
+
 
 1.配置
 ①settings.py文件中INSTALLED_APPS中写入创建的app的name
